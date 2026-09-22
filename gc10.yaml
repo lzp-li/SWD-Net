@@ -1,0 +1,17 @@
+path: /home/li/我的大硬盘/ultralytics/GC10-YOLO # 使用绝对路径更稳妥
+train: /home/li/我的大硬盘/ultralytics/GC10-YOLO/train/images
+val: /home/li/我的大硬盘/ultralytics/GC10-YOLO/val/images
+test: /home/li/我的大硬盘/ultralytics/GC10-YOLO/test/images  # 增加这一行
+
+nc: 10
+names:
+  0: punch
+  1: weld
+  2: crescent_gap
+  3: water_spot
+  4: oil_spot
+  5: silk_spot
+  6: inclusion
+  7: rolled_pit
+  8: crease
+  9: waist_folding
